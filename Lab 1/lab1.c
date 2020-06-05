@@ -12,7 +12,7 @@ int main()
 	{
 		int counter = 0;
 		char buff[1024];
-		fgets(buff, 1024, (FILE*)fp);
+		fgets(buff, 1024, (FILE*)fp); 
 		char *point = strtok(buff,",");
 	
 		while( point != NULL )
